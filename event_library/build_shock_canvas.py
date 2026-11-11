@@ -53,10 +53,12 @@ type EventRow = {
   url: string;
   shock: string;
   detail: string;
+  read: string;
   regime: string;
   series: Record<string, Series>;
 };
-type Pack = { coins: Coin[]; events: EventRow[] };
+type Held = { title: string; detail: string };
+type Pack = { coins: Coin[]; events: EventRow[]; held: Held[] };
 
 const PACK = __DATA__ as Pack;
 
@@ -383,7 +385,7 @@ function ReturnBars({
 }
 
 export default function EventShockKline() {
-  const [eventId, setEventId] = useCanvasState("event", "fomc-2024-12-18");
+  const [eventId, setEventId] = useCanvasState("event", "iran-hormuz-2026-06-09");
   const [coinId, setCoinId] = useCanvasState("coin", "BTC");
   const [horizon, setHorizon] = useCanvasState<Horizon>("horizon", "4h");
   const [zoom, setZoom] = useCanvasState<Zoom>("zoom", "shock");
@@ -439,7 +441,7 @@ export default function EventShockKline() {
       <Stack gap={6}>
         <H1>公布打在 K 线上</H1>
         <Text tone="secondary">
-          打开先看相对强度：每个币相对 BTC 强多少，就排在 K 线上面。HYPE 永续 2025-05-30 才上线，这 9 次没有它的路径。口里的 AVE 用的是 AAVE。
+          打开先看相对强度：每个币相对 BTC 强多少，就排在 K 线上面。除了 CPI、非农和 FOMC，同一排还有币安安全事件、美伊在霍尔木兹附近的打击、合作公告和交易所上币。HYPE 永续 2025-05-30 10:30 UTC 才上线，更早的公布没有它的路径。口里的 AVE 用的是 AAVE。
         </Text>
       </Stack>
 
@@ -547,6 +549,7 @@ export default function EventShockKline() {
             ) : null}
           </Row>
           {scan ? <Text tone="secondary" size="small">{scan}</Text> : null}
+          <Text>{event.read}</Text>
         </Stack>
       ) : null}
 
@@ -603,7 +606,7 @@ export default function EventShockKline() {
       />
       <Text tone="secondary">{event.detail}</Text>
       <Text tone="tertiary" size="small">
-        现货比特币 ETF 批准只有 2024-01-10 这个日期，没有分钟，所以没有进这张图。共识预期没有可引用的数字，这里不写超预期。利率区间只来自本库已收录的 FOMC 声明。价格是永续最新成交，不是可成交的冲击，没有盘口和资金费。
+        只有日期、没有分钟的不画 K 线：{PACK.held.map((item) => item.title).join("；")}。共识预期没有可引用的数字，这里不写超预期。利率区间只来自本库已收录的 FOMC 声明。价格是永续最新成交，不是可成交的冲击，没有盘口和资金费。上面那段读法只用测到的 1 小时路径，窗口里可以混进别的消息。
       </Text>
     </Stack>
   );

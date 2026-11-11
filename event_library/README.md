@@ -33,4 +33,4 @@ python -m event_library
 
 `fetch_shock_charts.py` 拉 12 个永续（BTC、ETH、SOL、HYPE、AAVE、UNI、ZEC、BNB、XRP、DOGE、LINK、ADA）在每次已核实公布前后的 1 分钟路径，写成 `data/shock_charts.json`。相对强度是同一窗口里该币收益相对 BTC 收益的比值，不是两个百分比相减。BTC 在跌、比值仍为正，记为扛跌。
 
-交互页在 `canvases/event-shock-kline.canvas.tsx`，只在 Cursor 里打开。HYPE 永续 2025-05-30 才上线，这 9 次公布没有它的 K 线。
+交互页在 `canvases/event-shock-kline.canvas.tsx`，只在 Cursor 里打开。除宏观公布外，已核实到分钟的还有 Bybit 被盗和公开确认、币安安全事件、美伊霍尔木兹打击、Hyperion 与 Felix 的合作、HYPE 永续上线、Binance.US 现货，以及币安 HYPE 现货公告。只有日期的留在 `events.json`，不进图。HYPE 永续 2025-05-30 10:30 UTC 才上线，更早的公布没有它的 K 线。

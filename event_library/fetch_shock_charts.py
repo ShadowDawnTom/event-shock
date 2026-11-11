@@ -47,13 +47,29 @@ SHORT = {
     "cpi-2024-11": "12/11 CPI",
     "fomc-2024-12-18": "12/18 降25bp",
     "cpi-2024-12": "1/15 CPI",
+    "bybit-hack-2025-02-21": "2/21 Bybit被盗",
+    "hype-perp-2025-05-30": "5/30 HYPE永续",
+    "hype-binance-us-2025-06-06": "6/6 HYPE上所",
+    "hyperion-felix-2025-10-29": "10/29 HYPE合作",
+    "iran-hormuz-2026-06-09": "6/9 霍尔木兹",
+    "binance-incident-2026-10-30": "10/30 币安事件",
+    "bybit-confirm-2025-02-21": "2/21 Bybit确认",
+    "hype-binance-spot-2026-09-24": "9/24 HYPE现货",
 }
 
 SOURCE = {
     "fomc": "美联储",
     "cpi": "美国劳工统计局",
     "employment": "美国劳工统计局",
+    "exchange_hack": "交易所原文",
+    "listing": "上币公告",
+    "partnership": "合作公告",
+    "geopolitics": "官方通报",
+    "oil": "OPEC",
+    "policy": "白宫",
 }
+
+ZONE_LABEL = {"America/New_York": "美东", "UTC": "UTC"}
 
 PRE_CHOICES = (30, 15, 0)
 HORIZONS = (("1h", 60), ("4h", 240), ("24h", 1440))
@@ -191,6 +207,8 @@ def longest_pre(by_open: dict[datetime, dict], at: datetime, end: datetime) -> t
 
 def shock_line(event: dict) -> str:
     shock = event["shock"]
+    if shock.get("summary"):
+        return shock["summary"]
     if event["eventType"] == "fomc":
         change = int(shock["changeBp"])
         verb = "下调" if change < 0 else "上调" if change > 0 else "维持"
@@ -222,7 +240,58 @@ def regime_line(regime: dict) -> str:
 
 def local_label(event: dict) -> str:
     stamp = datetime.fromisoformat(event["localTime"])
-    return stamp.strftime("%Y-%m-%d %H:%M") + " 美东"
+    zone = ZONE_LABEL.get(event["timeZone"], event["timeZone"])
+    return stamp.strftime("%Y-%m-%d %H:%M") + " " + zone
+
+
+def relative_strength(coin_pct: float, btc_pct: float) -> float:
+    return ((1 + coin_pct / 100) / (1 + btc_pct / 100) - 1) * 100
+
+
+def analysis_line(series: dict) -> str:
+    """One-hour reading built only from the measured path."""
+    btc = series.get("BTC") or {}
+    window = (btc.get("w") or {}).get("1h") or {}
+    if "ret" not in window:
+        return "BTC 这一小时没有连续分钟，先不写读法。"
+    parts = [
+        f"BTC 事件后 1 小时 {window['ret']:+.2f}%，最大跌幅 {window['dn']:+.2f}%。"
+    ]
+    if btc.get("r1") is not None:
+        parts.append(f"第 1 分钟 {btc['r1']:+.2f}%。")
+    if btc.get("pre") is not None:
+        parts.append(f"公布前 30 分钟已经走了 {btc['pre']:+.2f}%。")
+    if btc.get("vol") is not None:
+        parts.append(f"后 5 分钟成交量是事前每分钟的 {btc['vol']:.1f} 倍。")
+    btc_ret = window["ret"]
+    if btc_ret < 0:
+        held = []
+        for coin_id, row in series.items():
+            ret = ((row.get("w") or {}).get("1h") or {}).get("ret")
+            if coin_id == "BTC" or ret is None:
+                continue
+            strength = relative_strength(ret, btc_ret)
+            if strength > 0:
+                held.append((strength, coin_id))
+        held.sort(reverse=True)
+        if held:
+            names = "、".join(f"{coin_id} {strength:+.2f}%" for strength, coin_id in held[:3])
+            parts.append(f"BTC 在跌、相对强度仍为正：{names}。")
+        else:
+            parts.append("这一小时没有币在 BTC 下跌时走出正的相对强度。")
+    else:
+        parts.append("BTC 这一小时没有下跌，按口径不标扛跌。")
+    ranked = []
+    for coin_id, row in series.items():
+        ret = ((row.get("w") or {}).get("1h") or {}).get("ret")
+        if ret is None:
+            continue
+        ranked.append((abs(ret), ret, coin_id))
+    ranked.sort(reverse=True)
+    if ranked and ranked[0][2] != "BTC":
+        _, ret, coin_id = ranked[0]
+        parts.append(f"12 个币里这一小时波动最大的是 {coin_id} {ret:+.2f}%。")
+    return "".join(parts)
 
 
 def pct_points(price: Decimal, anchor: Decimal) -> float:
@@ -366,13 +435,20 @@ def build_pack() -> dict:
                 "url": event["sourceUrl"],
                 "shock": shock_line(event),
                 "detail": event["whatHappened"],
+                "read": analysis_line(series),
                 "regime": regime_line(regimes[event["id"]]),
                 "series": series,
             }
         )
+    held = [
+        {"title": event["title"], "detail": event["whatHappened"]}
+        for event in events
+        if event_instant(event) is None
+    ]
     return {
         "coins": [{"id": coin_id, "name": name, "symbol": symbol} for coin_id, name, symbol in COINS],
         "events": pack_events,
+        "held": held,
     }
 
 

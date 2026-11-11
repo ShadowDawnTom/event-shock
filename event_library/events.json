@@ -207,6 +207,210 @@
         "consensusMomSaPct": null,
         "surprise": null
       }
+    },
+    {
+      "id": "bybit-hack-2025-02-21",
+      "eventType": "exchange_hack",
+      "title": "Bybit 以太坊冷钱包被盗",
+      "localTime": "2025-02-21T14:13:00",
+      "timeZone": "UTC",
+      "timeStatus": "verified_instant",
+      "anchorKind": "incident_clock",
+      "whatHappened": "Bybit 自己的时间线写：2025-02-21 14:13 UTC，攻击者利用 Safe 多签冷钱包界面，转走该以太坊冷钱包里的资金。同一页写损失 14.6 亿美元，其中 401,347 ETH。15:44 UTC，联创 Ben Zhou 发文确认这只冷钱包被控制，并称交易所有能力补上。",
+      "sourceUrl": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "Bybit 时间线：14:13 UTC 冷钱包被转走，损失 14.6 亿美元，含 401,347 ETH。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "hype-perp-2025-05-30",
+      "eventType": "listing",
+      "title": "Binance USD-M 上线 HYPE 永续",
+      "localTime": "2025-05-30T10:30:00",
+      "timeZone": "UTC",
+      "timeStatus": "verified_instant",
+      "anchorKind": "venue_onboard",
+      "whatHappened": "Binance USD-M exchangeInfo 里 HYPEUSDT 的 onboardDate 是 1748601000000，对应 2025-05-30 10:30:00 UTC。这是合约在这个市场上线的系统时间，不是一篇新闻稿。上线前没有这根永续的分钟 K 线。",
+      "sourceUrl": "https://fapi.binance.com/fapi/v1/exchangeInfo",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "HYPEUSDT 永续 onboardDate 1748601000000，即 2025-05-30 10:30:00 UTC。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "hype-binance-us-2025-06-06",
+      "eventType": "listing",
+      "title": "Binance.US 开放 HYPE 现货",
+      "localTime": "2025-06-06T07:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "venue_open",
+      "whatHappened": "Binance.US 帮助中心写明：HYPE 的充值和交易于 2025-06-06 美东时间早上 7 点首次开放。交易对是 HYPE/USDT 和 HYPE/USD。这里的 K 线仍是 Binance USD-M 永续，不是 Binance.US 的现货成交。",
+      "sourceUrl": "https://support.binance.us/en/articles/11517940-binance-us-lists-hyperliquid-hype-trade-now",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "Binance.US：HYPE 充值和现货交易于 2025-06-06 美东 7:00 首次开放。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "circle-hype-2025-09-16",
+      "eventType": "partnership",
+      "title": "Circle 在 Hyperliquid 上线原生 USDC",
+      "localTime": "2025-09-16T00:00:00",
+      "timeZone": "UTC",
+      "timeStatus": "date_only",
+      "anchorKind": "unspecified",
+      "whatHappened": "Circle 博客日期是 2025-09-16。正文说当天在 HyperEVM 上线原生 USDC 和 CCTP V2，并写 Circle 已直接持有 HYPE。页面没有给出精确到分钟的发布时间，所以不计算价格路径。",
+      "sourceUrl": "https://www.circle.com/blog/circle-and-usdc-expansion-with-hyperliquid",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "Circle：2025-09-16 在 HyperEVM 上线原生 USDC，并成为 HYPE 的直接持有人。没有分钟。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "hyperion-felix-2025-10-29",
+      "eventType": "partnership",
+      "title": "Hyperion 与 Felix 合作，用 50 万 HYPE 做 HIP-3",
+      "localTime": "2025-10-29T08:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "wire_release",
+      "whatHappened": "GlobeNewswire 稿的时间是 2025-10-29 8:00am EDT。Hyperion DeFi 宣布与 Felix 签约，提供 50 万枚 HYPE 的使用权，供 Felix 在 Hyperliquid 的 HIP-3 上开设永续市场。",
+      "sourceUrl": "https://ir.hyperiondefi.com/news-events/press-releases/detail/290/hyperion-defi-announces-strategic-partnership-with-felix-to-launch-hip-3-powered-perpetual-futures-market",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "Hyperion 与 Felix：50 万 HYPE 用于 HIP-3 永续市场。稿时 2025-10-29 美东 8:00。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "iran-hormuz-2026-06-09",
+      "eventType": "geopolitics",
+      "title": "美军打击伊朗霍尔木兹附近目标",
+      "localTime": "2026-06-09T17:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "official_statement",
+      "whatHappened": "NBC 引述 CENTCOM 原话：2026-06-09 美东下午 5 点，美军开始对伊朗进行自卫打击，事由是前一天一架美军阿帕奇直升机在霍尔木兹海峡被击落。DVIDS 的完成通报确认当天打击了霍尔木兹附近的防空、地面控制站和监视雷达，但那则通报没有写出 5 点这个钟点。霍尔木兹是原油运输通道，这次同时当作战争和石油通道事件。",
+      "sourceUrl": "https://www.nbcnews.com/news/us-news/pilots-fine-us-military-helicopter-goes-down-strait-hormuz-rcna349137",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "CENTCOM 原话，经 NBC 刊出：美东 6 月 9 日 17:00 开始打击伊朗霍尔木兹附近目标。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "binance-incident-2026-10-30",
+      "eventType": "exchange_hack",
+      "title": "币安安全事件更新",
+      "localTime": "2026-10-30T02:23:22",
+      "timeZone": "UTC",
+      "timeStatus": "verified_instant",
+      "anchorKind": "announcement_publish",
+      "whatHappened": "币安公告接口给出的 publishDate 是 1793327002672，即 2026-10-30 02:23:22 UTC。公告写：初步调查认为一名 DevOps 工程师的电脑被入侵，攻击者进入服务容器并提交了未授权提现；没有发现钱包私钥泄露；影响规模大约 63 亿美元；损失由 SAFU 和公司资金承担，用户资金安全。公告正文没有写出链上转账的分钟。",
+      "sourceUrl": "https://www.binance.com/en/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "币安公告发布于 2026-10-30 02:23:22 UTC：未授权提现，规模约 63 亿美元，SAFU 兜底。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "bybit-confirm-2025-02-21",
+      "eventType": "exchange_hack",
+      "title": "Bybit 联创确认冷钱包被控制",
+      "localTime": "2025-02-21T15:44:00",
+      "timeZone": "UTC",
+      "timeStatus": "verified_instant",
+      "anchorKind": "public_statement",
+      "whatHappened": "同一条 Bybit 时间线写：2025-02-21 15:44 UTC，联创兼 CEO Ben Zhou 发文，说黑客控制了这只 ETH 冷钱包，并称 Bybit 有偿付能力、可以补上损失。14:13 UTC 是资金被转走的时刻，15:44 UTC 是公开确认。",
+      "sourceUrl": "https://www.bybit.com/en/learn/this-week-in-bybit/bybit-security-incident-timeline",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "Bybit 时间线：15:44 UTC Ben Zhou 发文确认 ETH 冷钱包被控制，并称可以补上损失。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "hype-binance-spot-2026-09-24",
+      "eventType": "listing",
+      "title": "币安公告上线 HYPE 现货",
+      "localTime": "2026-09-24T07:30:38",
+      "timeZone": "UTC",
+      "timeStatus": "verified_instant",
+      "anchorKind": "announcement_publish",
+      "whatHappened": "转载页收录的币安公告写：2026-09-24 11:00 UTC 开放 HYPE/USDT、HYPE/USDC、HYPE/TRY 现货，并加种子标签。同一页的 datePublished 是 2026-09-24T07:30:38+00:00。锚点用公告发布时间。这页是转载，作者标成 Binance。",
+      "sourceUrl": "https://tokenearly.com/announcement/6ab4d1a191bcc1046f243ad9.html",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "币安公告转载：2026-09-24 07:30:38 UTC 发布，11:00 UTC 开放 HYPE 现货并加种子标签。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "opec-2025-11-02",
+      "eventType": "oil",
+      "title": "OPEC+ 八国 12 月增产 13.7 万桶/日",
+      "localTime": "2025-11-02T00:00:00",
+      "timeZone": "UTC",
+      "timeStatus": "date_only",
+      "anchorKind": "unspecified",
+      "whatHappened": "OPEC 新闻稿写八国于 2025-11-02 线上开会，决定从 2025 年 12 月起，把 2023 年 4 月宣布的额外自愿减产里的 13.7 万桶/日调回来，并暂停 2026 年 1 月至 3 月的继续增产。稿子没有分钟，所以不计算价格路径。",
+      "sourceUrl": "https://www.opec.org/pr-detail/1574579-02-november-2025.html",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "OPEC+ 八国：2025 年 12 月增产 13.7 万桶/日，随后暂停到 2026 年 3 月。没有分钟。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "hormuz-closure-2026-06-11",
+      "eventType": "oil",
+      "title": "伊朗宣布关闭霍尔木兹海峡",
+      "localTime": "2026-06-11T00:00:00",
+      "timeZone": "UTC",
+      "timeStatus": "date_only",
+      "anchorKind": "unspecified",
+      "whatHappened": "塔斯尼姆通讯社 2026-06-11 报道，伊朗 Khatam al-Anbia 中央总部宣布：从这一刻起，霍尔木兹海峡对所有船只关闭，包括油轮和商船，任何通行都将成为目标。稿头写着 June, 11, 2026 - 03:06，电头是德黑兰，但没有标明时区，所以不把 03:06 当成锚点。",
+      "sourceUrl": "https://www.tasnimnews.ir/en/news/2026/06/11/3614120/iran-announces-total-closure-of-strait-of-hormuz",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "伊朗宣布霍尔木兹海峡对包括油轮在内的所有船只关闭。稿头 03:06 没有时区。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "btc-reserve-2025-03-06",
+      "eventType": "policy",
+      "title": "美国设立战略比特币储备",
+      "localTime": "2025-03-06T00:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "date_only",
+      "anchorKind": "unspecified",
+      "whatHappened": "白宫行政令页面日期是 2025-03-06。命令设立战略比特币储备和美国数字资产储备，储备里的比特币来自已经没收的政府持仓，并写追加购买必须预算中性。页面没有签名的钟点，所以不计算价格路径。",
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "行政令：用已没收的比特币设立战略储备。只有 2025-03-06 这个日期。",
+        "consensus": null,
+        "surprise": null
+      }
     }
   ]
 }
