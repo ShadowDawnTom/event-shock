@@ -1,0 +1,6 @@
+Crypto-Trader/
+event_library/data/cache/
+event_library/data/cache_shock/
+**/__pycache__/
+*.pyc
+.cursor/

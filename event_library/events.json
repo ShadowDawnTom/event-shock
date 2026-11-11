@@ -1,0 +1,212 @@
+{
+  "rubricVersion": "impact-v1",
+  "events": [
+    {
+      "id": "btc-etf-2024-01-10",
+      "eventType": "etf_decision",
+      "title": "美国 SEC 批准现货比特币 ETP 上市",
+      "localTime": "2024-01-10T00:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "date_only",
+      "anchorKind": "unspecified",
+      "whatHappened": "SEC 主席声明：委员会于 2024-01-10 批准若干现货比特币 ETP 份额上市交易。声明没有给出精确到分钟的发布时间，因此不计算小时级价格路径。",
+      "sourceUrl": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+      "shock": {
+        "kind": "discrete_event",
+        "summary": "批准现货比特币 ETP 上市交易，不是对比特币本身的背书。",
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "fomc-2024-09-18",
+      "eventType": "fomc",
+      "title": "FOMC 降息 50bp",
+      "localTime": "2024-09-18T14:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "FOMC 声明于美东 14:00 发布，将联邦基金利率目标区间下调 1/2 个百分点，至 4.75%–5.00%。Michelle Bowman 反对，倾向于只降 25bp。",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+      "shock": {
+        "kind": "policy_decision",
+        "action": "cut",
+        "changeBp": -50,
+        "targetLowerPct": 4.75,
+        "targetUpperPct": 5.0,
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "cpi-2024-09",
+      "eventType": "cpi",
+      "title": "美国 CPI：2024 年 9 月",
+      "localTime": "2024-10-10T08:30:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.2%，与 7 月、8 月相同；未季调同比 +2.4%。核心 CPI 季调环比 +0.3%。",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_10102024.htm",
+      "shock": {
+        "kind": "macro_print",
+        "series": "CPI-U",
+        "referencePeriod": "2024-09",
+        "actualMomSaPct": 0.2,
+        "previousMomSaPct": 0.2,
+        "actualYoyNsaPct": 2.4,
+        "coreMomSaPct": 0.3,
+        "consensusMomSaPct": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "nfp-2024-10",
+      "eventType": "employment",
+      "title": "美国就业形势：2024 年 10 月",
+      "localTime": "2024-11-01T08:30:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "BLS 于美东 8:30 解禁。非农就业基本持平，增加 1.2 万；失业率维持 4.1%。制造业就业下降与罢工有关。",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_11012024.htm",
+      "shock": {
+        "kind": "macro_print",
+        "series": "Employment Situation",
+        "referencePeriod": "2024-10",
+        "actualPayrollChange": 12000,
+        "unemploymentRatePct": 4.1,
+        "unemploymentNote": "unchanged at 4.1 percent",
+        "consensusPayrollChange": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "fomc-2024-11-07",
+      "eventType": "fomc",
+      "title": "FOMC 降息 25bp",
+      "localTime": "2024-11-07T14:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "FOMC 声明于美东 14:00 发布，将联邦基金利率目标区间下调 1/4 个百分点，至 4.50%–4.75%。",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+      "shock": {
+        "kind": "policy_decision",
+        "action": "cut",
+        "changeBp": -25,
+        "targetLowerPct": 4.5,
+        "targetUpperPct": 4.75,
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "cpi-2024-10",
+      "eventType": "cpi",
+      "title": "美国 CPI：2024 年 10 月",
+      "localTime": "2024-11-13T08:30:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.2%，与此前三个月相同；未季调同比 +2.6%。核心 CPI 季调环比 +0.3%。",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_11132024.htm",
+      "shock": {
+        "kind": "macro_print",
+        "series": "CPI-U",
+        "referencePeriod": "2024-10",
+        "actualMomSaPct": 0.2,
+        "previousMomSaPct": 0.2,
+        "actualYoyNsaPct": 2.6,
+        "coreMomSaPct": 0.3,
+        "consensusMomSaPct": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "nfp-2024-11",
+      "eventType": "employment",
+      "title": "美国就业形势：2024 年 11 月",
+      "localTime": "2024-12-06T08:30:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "BLS 于美东 8:30 解禁。非农就业增加 22.7 万；失业率 4.2%，较上月变化不大。",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_12062024.htm",
+      "shock": {
+        "kind": "macro_print",
+        "series": "Employment Situation",
+        "referencePeriod": "2024-11",
+        "actualPayrollChange": 227000,
+        "unemploymentRatePct": 4.2,
+        "unemploymentNote": "changed little at 4.2 percent",
+        "consensusPayrollChange": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "cpi-2024-11",
+      "eventType": "cpi",
+      "title": "美国 CPI：2024 年 11 月",
+      "localTime": "2024-12-11T08:30:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.3%，此前四个月均为 +0.2%；未季调同比 +2.7%。核心 CPI 季调环比 +0.3%。",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_12112024.htm",
+      "shock": {
+        "kind": "macro_print",
+        "series": "CPI-U",
+        "referencePeriod": "2024-11",
+        "actualMomSaPct": 0.3,
+        "previousMomSaPct": 0.2,
+        "actualYoyNsaPct": 2.7,
+        "coreMomSaPct": 0.3,
+        "consensusMomSaPct": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "fomc-2024-12-18",
+      "eventType": "fomc",
+      "title": "FOMC 降息 25bp",
+      "localTime": "2024-12-18T14:00:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "FOMC 声明于美东 14:00 发布，将联邦基金利率目标区间下调 1/4 个百分点，至 4.25%–4.50%。Beth Hammack 反对，倾向于维持 4.50%–4.75%。",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+      "shock": {
+        "kind": "policy_decision",
+        "action": "cut",
+        "changeBp": -25,
+        "targetLowerPct": 4.25,
+        "targetUpperPct": 4.5,
+        "consensus": null,
+        "surprise": null
+      }
+    },
+    {
+      "id": "cpi-2024-12",
+      "eventType": "cpi",
+      "title": "美国 CPI：2024 年 12 月",
+      "localTime": "2025-01-15T08:30:00",
+      "timeZone": "America/New_York",
+      "timeStatus": "verified_instant",
+      "anchorKind": "release_embargo",
+      "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.4%，11 月为 +0.3%；未季调同比 +2.9%。核心 CPI 季调环比 +0.2%。",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_01152025.htm",
+      "shock": {
+        "kind": "macro_print",
+        "series": "CPI-U",
+        "referencePeriod": "2024-12",
+        "actualMomSaPct": 0.4,
+        "previousMomSaPct": 0.3,
+        "actualYoyNsaPct": 2.9,
+        "coreMomSaPct": 0.2,
+        "consensusMomSaPct": null,
+        "surprise": null
+      }
+    }
+  ]
+}

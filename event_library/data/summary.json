@@ -1,0 +1,1549 @@
+[
+  {
+    "id": "fomc-2024-09-18",
+    "eventType": "fomc",
+    "title": "FOMC 降息 50bp",
+    "happenedAt": "2024-09-18T18:00:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "FOMC 声明于美东 14:00 发布，将联邦基金利率目标区间下调 1/2 个百分点，至 4.75%–5.00%。Michelle Bowman 反对，倾向于只降 25bp。",
+    "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+    "shock": {
+      "action": "cut",
+      "changeBp": -50,
+      "consensus": null,
+      "kind": "policy_decision",
+      "surprise": null,
+      "targetLowerPct": 4.75,
+      "targetUpperPct": 5.0
+    },
+    "contentHash": "91513403a6d4dca55587d9026dac5f884e1ceed53f308b9d8c66b05bec064a81",
+    "regime": {
+      "since": "2024-09-18T18:00:00+00:00",
+      "sourceEventId": "fomc-2024-09-18",
+      "status": "bounded",
+      "targetLowerPct": 4.75,
+      "targetUpperPct": 5.0,
+      "until": "2024-11-07T19:00:00+00:00"
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "59979.90",
+        "anchorOpenTime": "2024-09-18T17:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "b475a8cb75eb716952ec36609398dbf66082eb76303217e7d21225b9fa5b6280",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "60588.00",
+            "endOpenTime": "2024-09-18T18:59:00+00:00",
+            "maxDownPct": "-0.478994",
+            "maxUpPct": "2.235416",
+            "returnPct": "1.013840",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "63675.00",
+            "endOpenTime": "2024-09-19T17:59:00+00:00",
+            "maxDownPct": "-0.916807",
+            "maxUpPct": "6.419150",
+            "returnPct": "6.160564",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "60171.00",
+            "endOpenTime": "2024-09-18T21:59:00+00:00",
+            "maxDownPct": "-0.916807",
+            "maxUpPct": "2.235416",
+            "returnPct": "0.318607",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "63142.50",
+            "endOpenTime": "2024-09-25T17:59:00+00:00",
+            "maxDownPct": "-0.916807",
+            "maxUpPct": "8.036192",
+            "returnPct": "5.272766",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "2308.25",
+        "anchorOpenTime": "2024-09-18T17:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "c7de574ca5e5cb89706585121cffea2087a8a708be0cf330f6e5722d00de2440",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "2334.00",
+            "endOpenTime": "2024-09-18T18:59:00+00:00",
+            "maxDownPct": "-0.295029",
+            "maxUpPct": "2.410484",
+            "returnPct": "1.115564",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "2474.66",
+            "endOpenTime": "2024-09-19T17:59:00+00:00",
+            "maxDownPct": "-0.868623",
+            "maxUpPct": "7.558540",
+            "returnPct": "7.209358",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "2330.38",
+            "endOpenTime": "2024-09-18T21:59:00+00:00",
+            "maxDownPct": "-0.868623",
+            "maxUpPct": "2.410484",
+            "returnPct": "0.958735",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "2574.56",
+            "endOpenTime": "2024-09-25T17:59:00+00:00",
+            "maxDownPct": "-0.868623",
+            "maxUpPct": "17.058378",
+            "returnPct": "11.537312",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "129.1420",
+        "anchorOpenTime": "2024-09-18T17:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "eb090464c48ac6d4310b9ad754a047e6a2599d61b60b404a938898c0e19c44c0",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "131.2480",
+            "endOpenTime": "2024-09-18T18:59:00+00:00",
+            "maxDownPct": "-0.264825",
+            "maxUpPct": "2.984312",
+            "returnPct": "1.630763",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "143.0680",
+            "endOpenTime": "2024-09-19T17:59:00+00:00",
+            "maxDownPct": "-0.595469",
+            "maxUpPct": "11.466448",
+            "returnPct": "10.783479",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "131.1020",
+            "endOpenTime": "2024-09-18T21:59:00+00:00",
+            "maxDownPct": "-0.595469",
+            "maxUpPct": "2.984312",
+            "returnPct": "1.517709",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "149.3960",
+            "endOpenTime": "2024-09-25T17:59:00+00:00",
+            "maxDownPct": "-0.595469",
+            "maxUpPct": "19.305880",
+            "returnPct": "15.683511",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "cpi-2024-09",
+    "eventType": "cpi",
+    "title": "美国 CPI：2024 年 9 月",
+    "happenedAt": "2024-10-10T12:30:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.2%，与 7 月、8 月相同；未季调同比 +2.4%。核心 CPI 季调环比 +0.3%。",
+    "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_10102024.htm",
+    "shock": {
+      "actualMomSaPct": 0.2,
+      "actualYoyNsaPct": 2.4,
+      "consensusMomSaPct": null,
+      "coreMomSaPct": 0.3,
+      "kind": "macro_print",
+      "previousMomSaPct": 0.2,
+      "referencePeriod": "2024-09",
+      "series": "CPI-U",
+      "surprise": null
+    },
+    "contentHash": "87d6a5d0e1de5547949745b6093f8b9059d96910d490ee890306ead3bee6e875",
+    "regime": {
+      "since": "2024-09-18T18:00:00+00:00",
+      "sourceEventId": "fomc-2024-09-18",
+      "status": "bounded",
+      "targetLowerPct": 4.75,
+      "targetUpperPct": 5.0,
+      "until": "2024-11-07T19:00:00+00:00"
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "61240.50",
+        "anchorOpenTime": "2024-10-10T12:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "4a3e56a4befac80caacd96c6fd896cf6d48ad936f13b1ded9d08a32cc2401558",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "61120.40",
+            "endOpenTime": "2024-10-10T13:29:00+00:00",
+            "maxDownPct": "-0.831149",
+            "maxUpPct": "0.067766",
+            "returnPct": "-0.196112",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "61236.90",
+            "endOpenTime": "2024-10-11T12:29:00+00:00",
+            "maxDownPct": "-3.821817",
+            "maxUpPct": "0.067766",
+            "returnPct": "-0.005878",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "60534.00",
+            "endOpenTime": "2024-10-10T16:29:00+00:00",
+            "maxDownPct": "-1.349597",
+            "maxUpPct": "0.067766",
+            "returnPct": "-1.153648",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "66986.50",
+            "endOpenTime": "2024-10-17T12:29:00+00:00",
+            "maxDownPct": "-3.821817",
+            "maxUpPct": "11.690793",
+            "returnPct": "9.382680",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "2404.76",
+        "anchorOpenTime": "2024-10-10T12:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "df02da3c37d0424e7f88120d2ba8ddb326b54f324cc4289119ac9d15e4107f4b",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "2390.12",
+            "endOpenTime": "2024-10-10T13:29:00+00:00",
+            "maxDownPct": "-1.126100",
+            "maxUpPct": "0.076931",
+            "returnPct": "-0.608793",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "2418.19",
+            "endOpenTime": "2024-10-11T12:29:00+00:00",
+            "maxDownPct": "-3.132121",
+            "maxUpPct": "0.851644",
+            "returnPct": "0.558476",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "2401.00",
+            "endOpenTime": "2024-10-10T16:29:00+00:00",
+            "maxDownPct": "-1.495368",
+            "maxUpPct": "0.696119",
+            "returnPct": "-0.156357",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "2604.91",
+            "endOpenTime": "2024-10-17T12:29:00+00:00",
+            "maxDownPct": "-3.132121",
+            "maxUpPct": "11.809910",
+            "returnPct": "8.323076",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "140.5730",
+        "anchorOpenTime": "2024-10-10T12:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "60ea7450bf76890ed347bb46a4e6590b434608d7ab971afde0528149f49d3315",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "139.7340",
+            "endOpenTime": "2024-10-10T13:29:00+00:00",
+            "maxDownPct": "-1.657502",
+            "maxUpPct": "0.090345",
+            "returnPct": "-0.596843",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "142.4200",
+            "endOpenTime": "2024-10-11T12:29:00+00:00",
+            "maxDownPct": "-3.660731",
+            "maxUpPct": "1.441955",
+            "returnPct": "1.313908",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "137.8860",
+            "endOpenTime": "2024-10-10T16:29:00+00:00",
+            "maxDownPct": "-3.167749",
+            "maxUpPct": "0.090345",
+            "returnPct": "-1.911462",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "151.7000",
+            "endOpenTime": "2024-10-17T12:29:00+00:00",
+            "maxDownPct": "-3.660731",
+            "maxUpPct": "13.805638",
+            "returnPct": "7.915460",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "nfp-2024-10",
+    "eventType": "employment",
+    "title": "美国就业形势：2024 年 10 月",
+    "happenedAt": "2024-11-01T12:30:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "BLS 于美东 8:30 解禁。非农就业基本持平，增加 1.2 万；失业率维持 4.1%。制造业就业下降与罢工有关。",
+    "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_11012024.htm",
+    "shock": {
+      "actualPayrollChange": 12000,
+      "consensusPayrollChange": null,
+      "kind": "macro_print",
+      "referencePeriod": "2024-10",
+      "series": "Employment Situation",
+      "surprise": null,
+      "unemploymentNote": "unchanged at 4.1 percent",
+      "unemploymentRatePct": 4.1
+    },
+    "contentHash": "af12912d2a001dc52df80dc4923dc0bc15e0a39c5f9845ff85617080aa104e6c",
+    "regime": {
+      "since": "2024-09-18T18:00:00+00:00",
+      "sourceEventId": "fomc-2024-09-18",
+      "status": "bounded",
+      "targetLowerPct": 4.75,
+      "targetUpperPct": 5.0,
+      "until": "2024-11-07T19:00:00+00:00"
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "70101.60",
+        "anchorOpenTime": "2024-11-01T12:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "9f437bb46e3ec6ad56d07ae6ec5103fb24eafac2df59204f27ade087389d9013",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "70240.10",
+            "endOpenTime": "2024-11-01T13:29:00+00:00",
+            "maxDownPct": "-0.279452",
+            "maxUpPct": "0.550915",
+            "returnPct": "0.197570",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "69520.00",
+            "endOpenTime": "2024-11-02T12:29:00+00:00",
+            "maxDownPct": "-1.824637",
+            "maxUpPct": "2.208794",
+            "returnPct": "-0.829653",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "70227.10",
+            "endOpenTime": "2024-11-01T16:29:00+00:00",
+            "maxDownPct": "-1.520079",
+            "maxUpPct": "2.208794",
+            "returnPct": "0.179026",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "76006.20",
+            "endOpenTime": "2024-11-08T12:29:00+00:00",
+            "maxDownPct": "-4.695471",
+            "maxUpPct": "9.697924",
+            "returnPct": "8.422918",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "2519.47",
+        "anchorOpenTime": "2024-11-01T12:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "331d78d172a62a91c120aeb5131e8c46cbbafb91a2388e2af1b51dd4f70dd6cd",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "2536.45",
+            "endOpenTime": "2024-11-01T13:29:00+00:00",
+            "maxDownPct": "-0.130186",
+            "maxUpPct": "0.962901",
+            "returnPct": "0.673951",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "2494.89",
+            "endOpenTime": "2024-11-02T12:29:00+00:00",
+            "maxDownPct": "-1.509444",
+            "maxUpPct": "2.714460",
+            "returnPct": "-0.975602",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "2523.96",
+            "endOpenTime": "2024-11-01T16:29:00+00:00",
+            "maxDownPct": "-1.509444",
+            "maxUpPct": "2.714460",
+            "returnPct": "0.178212",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "2914.55",
+            "endOpenTime": "2024-11-08T12:29:00+00:00",
+            "maxDownPct": "-6.488269",
+            "maxUpPct": "17.365557",
+            "returnPct": "15.681076",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "168.0900",
+        "anchorOpenTime": "2024-11-01T12:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "a4718fee69a19f646aab342f5583d3482bbf86289c882fde4587cffd52f25833",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "169.9300",
+            "endOpenTime": "2024-11-01T13:29:00+00:00",
+            "maxDownPct": "-0.291511",
+            "maxUpPct": "1.279077",
+            "returnPct": "1.094652",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "165.4800",
+            "endOpenTime": "2024-11-02T12:29:00+00:00",
+            "maxDownPct": "-3.028140",
+            "maxUpPct": "3.510024",
+            "returnPct": "-1.552740",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "166.3600",
+            "endOpenTime": "2024-11-01T16:29:00+00:00",
+            "maxDownPct": "-3.028140",
+            "maxUpPct": "3.510024",
+            "returnPct": "-1.029211",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "203.0500",
+            "endOpenTime": "2024-11-08T12:29:00+00:00",
+            "maxDownPct": "-7.769647",
+            "maxUpPct": "21.958475",
+            "returnPct": "20.798382",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "fomc-2024-11-07",
+    "eventType": "fomc",
+    "title": "FOMC 降息 25bp",
+    "happenedAt": "2024-11-07T19:00:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "FOMC 声明于美东 14:00 发布，将联邦基金利率目标区间下调 1/4 个百分点，至 4.50%–4.75%。",
+    "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+    "shock": {
+      "action": "cut",
+      "changeBp": -25,
+      "consensus": null,
+      "kind": "policy_decision",
+      "surprise": null,
+      "targetLowerPct": 4.5,
+      "targetUpperPct": 4.75
+    },
+    "contentHash": "b67d5529f43e0044f67562caeb44cd9a0427821d72ec13e08ea13074a09022b4",
+    "regime": {
+      "since": "2024-11-07T19:00:00+00:00",
+      "sourceEventId": "fomc-2024-11-07",
+      "status": "bounded",
+      "targetLowerPct": 4.5,
+      "targetUpperPct": 4.75,
+      "until": "2024-12-18T19:00:00+00:00"
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "76606.80",
+        "anchorOpenTime": "2024-11-07T18:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "d99c75fa98f29c7820ccd82233b4c643a7db7bb3a4cb5ec321c5398fe3a2810c",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "76533.30",
+            "endOpenTime": "2024-11-07T19:59:00+00:00",
+            "maxDownPct": "-0.957878",
+            "maxUpPct": "0.023888",
+            "returnPct": "-0.095944",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "76803.00",
+            "endOpenTime": "2024-11-08T18:59:00+00:00",
+            "maxDownPct": "-1.482505",
+            "maxUpPct": "0.604385",
+            "returnPct": "0.256113",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "75867.40",
+            "endOpenTime": "2024-11-07T22:59:00+00:00",
+            "maxDownPct": "-1.482505",
+            "maxUpPct": "0.382734",
+            "returnPct": "-0.965188",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "89142.20",
+            "endOpenTime": "2024-11-14T18:59:00+00:00",
+            "maxDownPct": "-1.482505",
+            "maxUpPct": "21.948835",
+            "returnPct": "16.363299",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "2879.90",
+        "anchorOpenTime": "2024-11-07T18:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "17b21decfa86f9d661eb6ff1c6d2c151765f835b1ced80c1db2088b9a503f6b8",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "2885.99",
+            "endOpenTime": "2024-11-07T19:59:00+00:00",
+            "maxDownPct": "-1.002813",
+            "maxUpPct": "0.547241",
+            "returnPct": "0.211466",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "2958.37",
+            "endOpenTime": "2024-11-08T18:59:00+00:00",
+            "maxDownPct": "-1.002813",
+            "maxUpPct": "3.232751",
+            "returnPct": "2.724747",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "2882.00",
+            "endOpenTime": "2024-11-07T22:59:00+00:00",
+            "maxDownPct": "-1.002813",
+            "maxUpPct": "1.272961",
+            "returnPct": "0.072919",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "3134.43",
+            "endOpenTime": "2024-11-14T18:59:00+00:00",
+            "maxDownPct": "-1.002813",
+            "maxUpPct": "19.761103",
+            "returnPct": "8.838154",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "196.8900",
+        "anchorOpenTime": "2024-11-07T18:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "7cbf6a97b5c771ea8c3184b2c1e36d1ac6ea7a2aa17f8aacf0ff2a4c28e89fd8",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "197.0600",
+            "endOpenTime": "2024-11-07T19:59:00+00:00",
+            "maxDownPct": "-1.269745",
+            "maxUpPct": "0.208238",
+            "returnPct": "0.086343",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "199.6300",
+            "endOpenTime": "2024-11-08T18:59:00+00:00",
+            "maxDownPct": "-1.371324",
+            "maxUpPct": "4.286658",
+            "returnPct": "1.391640",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "195.3500",
+            "endOpenTime": "2024-11-07T22:59:00+00:00",
+            "maxDownPct": "-1.269745",
+            "maxUpPct": "0.507898",
+            "returnPct": "-0.782163",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "214.6200",
+            "endOpenTime": "2024-11-14T18:59:00+00:00",
+            "maxDownPct": "-1.371324",
+            "maxUpPct": "14.627457",
+            "returnPct": "9.005028",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "cpi-2024-10",
+    "eventType": "cpi",
+    "title": "美国 CPI：2024 年 10 月",
+    "happenedAt": "2024-11-13T13:30:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.2%，与此前三个月相同；未季调同比 +2.6%。核心 CPI 季调环比 +0.3%。",
+    "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_11132024.htm",
+    "shock": {
+      "actualMomSaPct": 0.2,
+      "actualYoyNsaPct": 2.6,
+      "consensusMomSaPct": null,
+      "coreMomSaPct": 0.3,
+      "kind": "macro_print",
+      "previousMomSaPct": 0.2,
+      "referencePeriod": "2024-10",
+      "series": "CPI-U",
+      "surprise": null
+    },
+    "contentHash": "7313779d05d9416e805f5effb595ed86b8a15129268e515ad34b38f89c288111",
+    "regime": {
+      "since": "2024-11-07T19:00:00+00:00",
+      "sourceEventId": "fomc-2024-11-07",
+      "status": "bounded",
+      "targetLowerPct": 4.5,
+      "targetUpperPct": 4.75,
+      "until": "2024-12-18T19:00:00+00:00"
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "88312.00",
+        "anchorOpenTime": "2024-11-13T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "e38d5840703e82f7436c275fbc3bb1844a874518d1627d2d9d76f22ab040e667",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "89850.40",
+            "endOpenTime": "2024-11-13T14:29:00+00:00",
+            "maxDownPct": "-0.064997",
+            "maxUpPct": "1.863620",
+            "returnPct": "1.742006",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "90973.60",
+            "endOpenTime": "2024-11-14T13:29:00+00:00",
+            "maxDownPct": "-0.347518",
+            "maxUpPct": "5.785284",
+            "returnPct": "3.013860",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "92268.90",
+            "endOpenTime": "2024-11-13T17:29:00+00:00",
+            "maxDownPct": "-0.064997",
+            "maxUpPct": "5.785284",
+            "returnPct": "4.480592",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "94301.10",
+            "endOpenTime": "2024-11-20T13:29:00+00:00",
+            "maxDownPct": "-1.809494",
+            "maxUpPct": "6.893740",
+            "returnPct": "6.781751",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "3182.55",
+        "anchorOpenTime": "2024-11-13T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "b6fcd5a5e614b298bbab631df0fb7dd6beba998994acd9c4c0bdf6c7d4e7a446",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "3233.67",
+            "endOpenTime": "2024-11-13T14:29:00+00:00",
+            "maxDownPct": "-0.136997",
+            "maxUpPct": "2.005939",
+            "returnPct": "1.606259",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "3183.14",
+            "endOpenTime": "2024-11-14T13:29:00+00:00",
+            "maxDownPct": "-1.965405",
+            "maxUpPct": "4.790184",
+            "returnPct": "0.018539",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "3278.37",
+            "endOpenTime": "2024-11-13T17:29:00+00:00",
+            "maxDownPct": "-0.136997",
+            "maxUpPct": "4.790184",
+            "returnPct": "3.010793",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "3111.26",
+            "endOpenTime": "2024-11-20T13:29:00+00:00",
+            "maxDownPct": "-5.229769",
+            "maxUpPct": "4.790184",
+            "returnPct": "-2.240028",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "208.3300",
+        "anchorOpenTime": "2024-11-13T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "690d0662b373c363d3f5012f3c66aeb4766a59db38ba55dae59097f4e6a55204",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "212.4300",
+            "endOpenTime": "2024-11-13T14:29:00+00:00",
+            "maxDownPct": "-0.355206",
+            "maxUpPct": "3.398454",
+            "returnPct": "1.968031",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "216.5500",
+            "endOpenTime": "2024-11-14T13:29:00+00:00",
+            "maxDownPct": "-1.089617",
+            "maxUpPct": "7.060913",
+            "returnPct": "3.945663",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "217.4200",
+            "endOpenTime": "2024-11-13T17:29:00+00:00",
+            "maxDownPct": "-0.355206",
+            "maxUpPct": "5.971296",
+            "returnPct": "4.363270",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "238.4700",
+            "endOpenTime": "2024-11-20T13:29:00+00:00",
+            "maxDownPct": "-1.833629",
+            "maxUpPct": "19.358710",
+            "returnPct": "14.467431",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "nfp-2024-11",
+    "eventType": "employment",
+    "title": "美国就业形势：2024 年 11 月",
+    "happenedAt": "2024-12-06T13:30:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "BLS 于美东 8:30 解禁。非农就业增加 22.7 万；失业率 4.2%，较上月变化不大。",
+    "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_12062024.htm",
+    "shock": {
+      "actualPayrollChange": 227000,
+      "consensusPayrollChange": null,
+      "kind": "macro_print",
+      "referencePeriod": "2024-11",
+      "series": "Employment Situation",
+      "surprise": null,
+      "unemploymentNote": "changed little at 4.2 percent",
+      "unemploymentRatePct": 4.2
+    },
+    "contentHash": "d2d6d05f83190ca26fba5fa9c286a3df48707f03d56b94b3d54d1d4c433e2190",
+    "regime": {
+      "since": "2024-11-07T19:00:00+00:00",
+      "sourceEventId": "fomc-2024-11-07",
+      "status": "bounded",
+      "targetLowerPct": 4.5,
+      "targetUpperPct": 4.75,
+      "until": "2024-12-18T19:00:00+00:00"
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "98105.50",
+        "anchorOpenTime": "2024-12-06T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "7c8f689cac4998ae4067d464560057dfcb3d7eae4d3cef28125ba55d6ac6834b",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "99300.80",
+            "endOpenTime": "2024-12-06T14:29:00+00:00",
+            "maxDownPct": "-0.209876",
+            "maxUpPct": "1.271386",
+            "returnPct": "1.218382",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "99477.00",
+            "endOpenTime": "2024-12-07T13:29:00+00:00",
+            "maxDownPct": "-0.209876",
+            "maxUpPct": "3.958290",
+            "returnPct": "1.397985",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "99399.90",
+            "endOpenTime": "2024-12-06T17:29:00+00:00",
+            "maxDownPct": "-0.209876",
+            "maxUpPct": "1.515308",
+            "returnPct": "1.319396",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "100100.10",
+            "endOpenTime": "2024-12-13T13:29:00+00:00",
+            "maxDownPct": "-4.144314",
+            "maxUpPct": "4.518503",
+            "returnPct": "2.033117",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "3852.78",
+        "anchorOpenTime": "2024-12-06T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "bf87bc8cb5d41cb2934f24c402714966548e4b7e78d8d9da69f5c10b6da7f7f3",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "3919.47",
+            "endOpenTime": "2024-12-06T14:29:00+00:00",
+            "maxDownPct": "-0.137303",
+            "maxUpPct": "1.744714",
+            "returnPct": "1.730958",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "4002.64",
+            "endOpenTime": "2024-12-07T13:29:00+00:00",
+            "maxDownPct": "-0.137303",
+            "maxUpPct": "6.230566",
+            "returnPct": "3.889659",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "4027.19",
+            "endOpenTime": "2024-12-06T17:29:00+00:00",
+            "maxDownPct": "-0.137303",
+            "maxUpPct": "5.015080",
+            "returnPct": "4.526861",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "3918.24",
+            "endOpenTime": "2024-12-13T13:29:00+00:00",
+            "maxDownPct": "-9.805387",
+            "maxUpPct": "6.230566",
+            "returnPct": "1.699033",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "232.4200",
+        "anchorOpenTime": "2024-12-06T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "c8380318ae8e63f853706b4e55181d26fbca4674b271ba626c302c69f482b397",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "236.3200",
+            "endOpenTime": "2024-12-06T14:29:00+00:00",
+            "maxDownPct": "-0.210825",
+            "maxUpPct": "1.819981",
+            "returnPct": "1.677997",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "238.6400",
+            "endOpenTime": "2024-12-07T13:29:00+00:00",
+            "maxDownPct": "-0.210825",
+            "maxUpPct": "3.687290",
+            "returnPct": "2.676190",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "239.0400",
+            "endOpenTime": "2024-12-06T17:29:00+00:00",
+            "maxDownPct": "-0.210825",
+            "maxUpPct": "3.295758",
+            "returnPct": "2.848292",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "223.6600",
+            "endOpenTime": "2024-12-13T13:29:00+00:00",
+            "maxDownPct": "-13.948886",
+            "maxUpPct": "4.935031",
+            "returnPct": "-3.769039",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "cpi-2024-11",
+    "eventType": "cpi",
+    "title": "美国 CPI：2024 年 11 月",
+    "happenedAt": "2024-12-11T13:30:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.3%，此前四个月均为 +0.2%；未季调同比 +2.7%。核心 CPI 季调环比 +0.3%。",
+    "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_12112024.htm",
+    "shock": {
+      "actualMomSaPct": 0.3,
+      "actualYoyNsaPct": 2.7,
+      "consensusMomSaPct": null,
+      "coreMomSaPct": 0.3,
+      "kind": "macro_print",
+      "previousMomSaPct": 0.2,
+      "referencePeriod": "2024-11",
+      "series": "CPI-U",
+      "surprise": null
+    },
+    "contentHash": "4e18089328829d5e4e588a0240a78f565b7c075c5b19c2af0890acfcb58b49b1",
+    "regime": {
+      "since": "2024-11-07T19:00:00+00:00",
+      "sourceEventId": "fomc-2024-11-07",
+      "status": "bounded",
+      "targetLowerPct": 4.5,
+      "targetUpperPct": 4.75,
+      "until": "2024-12-18T19:00:00+00:00"
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "98372.10",
+        "anchorOpenTime": "2024-12-11T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "a2b44dfe2b3517f1ca02c411a306e1879dd66587f1cc9db92de2be9b61d20b05",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "98659.50",
+            "endOpenTime": "2024-12-11T14:29:00+00:00",
+            "maxDownPct": "-0.227910",
+            "maxUpPct": "0.504818",
+            "returnPct": "0.292156",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "101230.30",
+            "endOpenTime": "2024-12-12T13:29:00+00:00",
+            "maxDownPct": "-0.227910",
+            "maxUpPct": "3.565950",
+            "returnPct": "2.905499",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "100501.10",
+            "endOpenTime": "2024-12-11T17:29:00+00:00",
+            "maxDownPct": "-0.227910",
+            "maxUpPct": "2.753423",
+            "returnPct": "2.164232",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "105016.00",
+            "endOpenTime": "2024-12-18T13:29:00+00:00",
+            "maxDownPct": "-0.227910",
+            "maxUpPct": "10.160096",
+            "returnPct": "6.753846",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "3724.01",
+        "anchorOpenTime": "2024-12-11T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "b8120addb900cc0b710cd9713054e49910cea2e56dc2c4b5b00abaa592ad4243",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "3727.83",
+            "endOpenTime": "2024-12-11T14:29:00+00:00",
+            "maxDownPct": "-0.236304",
+            "maxUpPct": "0.671051",
+            "returnPct": "0.102578",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "3964.00",
+            "endOpenTime": "2024-12-12T13:29:00+00:00",
+            "maxDownPct": "-0.236304",
+            "maxUpPct": "6.849337",
+            "returnPct": "6.444397",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "3790.01",
+            "endOpenTime": "2024-12-11T17:29:00+00:00",
+            "maxDownPct": "-0.236304",
+            "maxUpPct": "2.577598",
+            "returnPct": "1.772283",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "3872.66",
+            "endOpenTime": "2024-12-18T13:29:00+00:00",
+            "maxDownPct": "-0.236304",
+            "maxUpPct": "10.364634",
+            "returnPct": "3.991665",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "225.3800",
+        "anchorOpenTime": "2024-12-11T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "464ef6327edba8e191829a85ab1561f0b1b503ce8b47e49d6759907ee03e56af",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "225.8500",
+            "endOpenTime": "2024-12-11T14:29:00+00:00",
+            "maxDownPct": "-0.221848",
+            "maxUpPct": "0.896264",
+            "returnPct": "0.208537",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "231.6100",
+            "endOpenTime": "2024-12-12T13:29:00+00:00",
+            "maxDownPct": "-0.221848",
+            "maxUpPct": "3.593930",
+            "returnPct": "2.764220",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "228.9100",
+            "endOpenTime": "2024-12-11T17:29:00+00:00",
+            "maxDownPct": "-0.221848",
+            "maxUpPct": "2.258408",
+            "returnPct": "1.566244",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "217.4200",
+            "endOpenTime": "2024-12-18T13:29:00+00:00",
+            "maxDownPct": "-6.313781",
+            "maxUpPct": "4.117490",
+            "returnPct": "-3.531813",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "fomc-2024-12-18",
+    "eventType": "fomc",
+    "title": "FOMC 降息 25bp",
+    "happenedAt": "2024-12-18T19:00:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "FOMC 声明于美东 14:00 发布，将联邦基金利率目标区间下调 1/4 个百分点，至 4.25%–4.50%。Beth Hammack 反对，倾向于维持 4.50%–4.75%。",
+    "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+    "shock": {
+      "action": "cut",
+      "changeBp": -25,
+      "consensus": null,
+      "kind": "policy_decision",
+      "surprise": null,
+      "targetLowerPct": 4.25,
+      "targetUpperPct": 4.5
+    },
+    "contentHash": "453b33b782bb82eeb3307a7435276b4b1b40a4a6318734dc579edbdbe0ebb444",
+    "regime": {
+      "since": "2024-12-18T19:00:00+00:00",
+      "sourceEventId": "fomc-2024-12-18",
+      "status": "open_ended",
+      "targetLowerPct": 4.25,
+      "targetUpperPct": 4.5,
+      "until": null
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "104771.60",
+        "anchorOpenTime": "2024-12-18T18:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "88533392911ac6d29eec9fca503aba6a001d60d7a76d812bfefc764208241dfb",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "102782.10",
+            "endOpenTime": "2024-12-18T19:59:00+00:00",
+            "maxDownPct": "-1.903665",
+            "maxUpPct": "0.021762",
+            "returnPct": "-1.898892",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "98883.60",
+            "endOpenTime": "2024-12-19T18:59:00+00:00",
+            "maxDownPct": "-7.558537",
+            "maxUpPct": "0.021762",
+            "returnPct": "-5.619844",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "101122.40",
+            "endOpenTime": "2024-12-18T22:59:00+00:00",
+            "maxDownPct": "-4.266519",
+            "maxUpPct": "0.021762",
+            "returnPct": "-3.483005",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "98722.50",
+            "endOpenTime": "2024-12-25T18:59:00+00:00",
+            "maxDownPct": "-11.929760",
+            "maxUpPct": "0.021762",
+            "returnPct": "-5.773607",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "3897.60",
+        "anchorOpenTime": "2024-12-18T18:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "9a000b1f3f66e3dab43d09cd5f9ef1d0261c2808ead76e9a539a93ed9e292cf8",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "3768.82",
+            "endOpenTime": "2024-12-18T19:59:00+00:00",
+            "maxDownPct": "-3.345135",
+            "maxUpPct": "0.266831",
+            "returnPct": "-3.304085",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "3519.15",
+            "endOpenTime": "2024-12-19T18:59:00+00:00",
+            "maxDownPct": "-13.267139",
+            "maxUpPct": "0.266831",
+            "returnPct": "-9.709821",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "3678.65",
+            "endOpenTime": "2024-12-18T22:59:00+00:00",
+            "maxDownPct": "-6.738249",
+            "maxUpPct": "0.266831",
+            "returnPct": "-5.617560",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "3469.42",
+            "endOpenTime": "2024-12-25T18:59:00+00:00",
+            "maxDownPct": "-20.463875",
+            "maxUpPct": "0.266831",
+            "returnPct": "-10.985735",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "217.8000",
+        "anchorOpenTime": "2024-12-18T18:59:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "48d48ce85dc35d846435f62f34d586685911ceac86b2a7c8d6b52d6b90a0d88a",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "211.5200",
+            "endOpenTime": "2024-12-18T19:59:00+00:00",
+            "maxDownPct": "-2.887971",
+            "maxUpPct": "0.220386",
+            "returnPct": "-2.883379",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "194.6200",
+            "endOpenTime": "2024-12-19T18:59:00+00:00",
+            "maxDownPct": "-12.460973",
+            "maxUpPct": "0.220386",
+            "returnPct": "-10.642792",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "206.3000",
+            "endOpenTime": "2024-12-18T22:59:00+00:00",
+            "maxDownPct": "-5.505051",
+            "maxUpPct": "0.220386",
+            "returnPct": "-5.280073",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "198.1700",
+            "endOpenTime": "2024-12-25T18:59:00+00:00",
+            "maxDownPct": "-19.559229",
+            "maxUpPct": "0.220386",
+            "returnPct": "-9.012856",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "cpi-2024-12",
+    "eventType": "cpi",
+    "title": "美国 CPI：2024 年 12 月",
+    "happenedAt": "2025-01-15T13:30:00+00:00",
+    "timeStatus": "verified_instant",
+    "whatHappened": "BLS 于美东 8:30 解禁。CPI-U 季调环比 +0.4%，11 月为 +0.3%；未季调同比 +2.9%。核心 CPI 季调环比 +0.2%。",
+    "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_01152025.htm",
+    "shock": {
+      "actualMomSaPct": 0.4,
+      "actualYoyNsaPct": 2.9,
+      "consensusMomSaPct": null,
+      "coreMomSaPct": 0.2,
+      "kind": "macro_print",
+      "previousMomSaPct": 0.3,
+      "referencePeriod": "2024-12",
+      "series": "CPI-U",
+      "surprise": null
+    },
+    "contentHash": "e199d8ffafed5b3bc7e453caebcce15ea8e2e629fe29fc25b0af54125999d8a0",
+    "regime": {
+      "since": "2024-12-18T19:00:00+00:00",
+      "sourceEventId": "fomc-2024-12-18",
+      "status": "open_ended",
+      "targetLowerPct": 4.25,
+      "targetUpperPct": 4.5,
+      "until": null
+    },
+    "impacts": {
+      "BTC": {
+        "anchorClose": "97244.50",
+        "anchorOpenTime": "2025-01-15T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "3de2af6331f684a9e33866eafbaeaa8b4395feaf75f32699977f99b0a875968e",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "98680.00",
+            "endOpenTime": "2025-01-15T14:29:00+00:00",
+            "maxDownPct": "-0.004628",
+            "maxUpPct": "2.226861",
+            "returnPct": "1.476176",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "98745.10",
+            "endOpenTime": "2025-01-16T13:29:00+00:00",
+            "maxDownPct": "-0.004628",
+            "maxUpPct": "3.707665",
+            "returnPct": "1.543121",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "99056.00",
+            "endOpenTime": "2025-01-15T17:29:00+00:00",
+            "maxDownPct": "-0.004628",
+            "maxUpPct": "2.572999",
+            "returnPct": "1.862830",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "104870.30",
+            "endOpenTime": "2025-01-22T13:29:00+00:00",
+            "maxDownPct": "-0.004628",
+            "maxUpPct": "13.116937",
+            "returnPct": "7.841883",
+            "status": "measured"
+          }
+        }
+      },
+      "ETH": {
+        "anchorClose": "3216.80",
+        "anchorOpenTime": "2025-01-15T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "9aedd9865871937b7585b26cfbaba9169720ee56e8400cb3e9dd94935813b5c8",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "3287.02",
+            "endOpenTime": "2025-01-15T14:29:00+00:00",
+            "maxDownPct": "0.000000",
+            "maxUpPct": "2.978426",
+            "returnPct": "2.182915",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "3311.09",
+            "endOpenTime": "2025-01-16T13:29:00+00:00",
+            "maxDownPct": "0.000000",
+            "maxUpPct": "7.962261",
+            "returnPct": "2.931174",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "3350.20",
+            "endOpenTime": "2025-01-15T17:29:00+00:00",
+            "maxDownPct": "0.000000",
+            "maxUpPct": "4.629445",
+            "returnPct": "4.146978",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "3304.00",
+            "endOpenTime": "2025-01-22T13:29:00+00:00",
+            "maxDownPct": "-2.709836",
+            "maxUpPct": "9.576287",
+            "returnPct": "2.710768",
+            "status": "measured"
+          }
+        }
+      },
+      "SOL": {
+        "anchorClose": "187.4500",
+        "anchorOpenTime": "2025-01-15T13:29:00+00:00",
+        "seriesCount": 10081,
+        "seriesHash": "78c7ae1b3d07f2609030fda8e3f2b8663424a4327e3d165589bf21f3cb720426",
+        "staleSeconds": 0,
+        "status": "measured",
+        "windows": {
+          "1h": {
+            "elapsedMinutes": 60,
+            "endClose": "193.4300",
+            "endOpenTime": "2025-01-15T14:29:00+00:00",
+            "maxDownPct": "-0.042678",
+            "maxUpPct": "5.137370",
+            "returnPct": "3.190184",
+            "status": "measured"
+          },
+          "24h": {
+            "elapsedMinutes": 1440,
+            "endClose": "209.2100",
+            "endOpenTime": "2025-01-16T13:29:00+00:00",
+            "maxDownPct": "-0.042678",
+            "maxUpPct": "15.838890",
+            "returnPct": "11.608429",
+            "status": "measured"
+          },
+          "4h": {
+            "elapsedMinutes": 240,
+            "endClose": "198.6000",
+            "endOpenTime": "2025-01-15T17:29:00+00:00",
+            "maxDownPct": "-0.042678",
+            "maxUpPct": "6.065617",
+            "returnPct": "5.948253",
+            "status": "measured"
+          },
+          "7d": {
+            "elapsedMinutes": 10080,
+            "endClose": "263.6600",
+            "endOpenTime": "2025-01-22T13:29:00+00:00",
+            "maxDownPct": "-0.042678",
+            "maxUpPct": "57.695385",
+            "returnPct": "40.656175",
+            "status": "measured"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "btc-etf-2024-01-10",
+    "eventType": "etf_decision",
+    "title": "美国 SEC 批准现货比特币 ETP 上市",
+    "happenedAt": null,
+    "timeStatus": "date_only",
+    "whatHappened": "SEC 主席声明：委员会于 2024-01-10 批准若干现货比特币 ETP 份额上市交易。声明没有给出精确到分钟的发布时间，因此不计算小时级价格路径。",
+    "sourceUrl": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+    "shock": {
+      "consensus": null,
+      "kind": "discrete_event",
+      "summary": "批准现货比特币 ETP 上市交易，不是对比特币本身的背书。",
+      "surprise": null
+    },
+    "contentHash": "4b1934ed67716c2e31ed205e3de5807a09358c5a8586fcef0463e3802b2322e0",
+    "regime": {
+      "reason": "event time is not a verified instant",
+      "status": "unknown"
+    },
+    "impacts": {
+      "BTC": {
+        "error": "time is not a verified instant",
+        "status": "not_measured"
+      },
+      "ETH": {
+        "error": "time is not a verified instant",
+        "status": "not_measured"
+      },
+      "SOL": {
+        "error": "time is not a verified instant",
+        "status": "not_measured"
+      }
+    }
+  }
+]
